@@ -1,0 +1,33 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: capistrano_enabled_project_development
+  pool: 5
+  host: localhost
+  username: user_name
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: capistrano_enabled_project_test
+  pool: 5
+  host: localhost
+  username: user_name
+  password: password
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: capistrano_enabled_project_production
+  pool: 5
+  username: user_name
+  password: password
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: capistrano_enabled_project_staging
+  pool: 5
+  username: user_name
+  password: password
